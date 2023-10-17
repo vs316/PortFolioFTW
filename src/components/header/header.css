@@ -41,7 +41,7 @@ header {
 /*====ME ===*/
 
 .me {
-  background: linear-gradient(#1e1e1e, transparent);
+  background: linear-gradient(#1e1e1e, transparent, rgba(255, 255, 255, 0.3));
   width: 22rem;
   height: 30rem;
   position: absolute;
