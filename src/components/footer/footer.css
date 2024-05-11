@@ -1,6 +1,6 @@
 footer {
   background: var(--color-primary);
-  padding: 3rem 0;
+  padding: 1rem 0;
   text-align: center;
   font-size: 0.9rem;
   margin-top: 7rem;
@@ -50,27 +50,6 @@ footer a {
 .footer__copyright {
   margin-bottom: 4rem;
   color: var(--color-bg);
-}
-
-.footer__logo-icon {
-  display: inline-block;
-  float: right;
-  background: var(--color-bg);
-  color: var(--color-white);
-  padding: 0.6rem;
-  border-radius: 0.6rem;
-  margin-right: 0.5rem;
-  border: 1px solid transparent;
-}
-
-.footer__logo-icon i {
-  display: flex;
-  align-items: center;
-}
-.footer__logo-icon:hover {
-  background: transparent;
-  color: var(--color-bg);
-  border-color: var(--color-bg);
 }
 
 /*========= MEDIA QUERIES (SMALL DEVICES) ========== */

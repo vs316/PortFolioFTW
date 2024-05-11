@@ -1,9 +1,9 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG1 from "../../assets/portfolio1.png";
+import IMG2 from "../../assets/portfolio2.png";
+import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 
@@ -11,44 +11,44 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "t1",
-    github: "https://github.com/vs316",
-    demo: "https://github.com/vs316",
+    title: "AI Link-to-insight Solution",
+    github: "https://github.com/vs316/project_ai_summarizer",
+    demo: "https://sumzv2ai.netlify.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "t2",
-    github: "https://github.com/vs316",
-    demo: "https://github.com/vs316",
+    title: "Business Page Redesign",
+    github: "https://github.com/vs316/businesspageredesign",
+    demo: "https://businesspageredesign.web.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "t3",
-    github: "https://github.com/vs316",
-    demo: "https://github.com/vs316",
+    title: "Online Blood Bank Management System",
+    github: "https://github.com/vs316/Online-Blood-Bank-Management-System",
+    demo: "https://onl-bbms.web.app/",
   },
   {
     id: 4,
     image: IMG4,
-    title: "t4",
-    github: "https://github.com/vs316",
-    demo: "https://github.com/vs316",
+    title: "Borcelle: Men's Clothing Store With Admin Dashboard",
+    github: "https://github.com/vs316/borcelle_admin",
+    demo: "https://drive.google.com/file/d/1yOpXOKcXnjDaUskn0N7dA9ZlcjdhGgiJ/view?usp=sharing",
   },
   {
     id: 5,
     image: IMG5,
-    title: "t5",
-    github: "https://github.com/vs316",
-    demo: "https://github.com/vs316",
+    title: "Personal Portfolio Website",
+    github: "https://github.com/vs316/PortFolioFTW",
+    demo: "https://portfolio-voc.web.app/",
   },
   {
     id: 6,
     image: IMG6,
-    title: "t6",
+    title: "Coming soon...",
     github: "https://github.com/vs316",
-    demo: "https://github.com/vs316",
+    // demo: "https://github.com/vs316",
   },
 ];
 const Portfolio = () => {
@@ -64,7 +64,9 @@ const Portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
+              <br />
               <h3>{title}</h3>
+              <br />
               <div className="portfolio__item-cta">
                 <a href={github} className="btn" target="_blank">
                   Github

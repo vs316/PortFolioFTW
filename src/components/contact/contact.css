@@ -3,6 +3,9 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
 }
 
 .contact__options {
@@ -34,7 +37,22 @@
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
+  cursor: pointer;
 }
+.scroll__div {
+  margin-top: -7.5rem;
+}
+.scroll__up {
+  position: absolute;
+  transform: rotate(270deg);
+  right: 14rem;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.scroll__up:hover {
+  transform: scale(1.5);
+}
+
 /*==========FORM==========*/
 
 form {
@@ -68,5 +86,11 @@ textarea {
 @media screen and (max-width: 600px) {
   .container.contact__container {
     width: var(--container-width-sm);
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+  }
+  .scroll__up {
+    display: none;
   }
 }

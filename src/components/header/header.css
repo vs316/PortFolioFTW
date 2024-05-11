@@ -62,7 +62,9 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
 }
-
+.scroll__down:hover {
+  transform: scale(1.5);
+}
 /*========= MEDIA QUERIES (SMALL DEVICES) ========== */
 
 @media screen and (max-width: 600px) {

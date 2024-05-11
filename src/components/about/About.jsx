@@ -22,26 +22,32 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small> 3rd Year Computer Science Student</small>
+              <small> 3rd Year CSE Student</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>N😶A</small>
-            </article>
+            </article> */}
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small> 10+ Completed Projects</small>
+              <small> 15+ Completed Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-            culpa earum consectetur rerum sed, laudantium similique laboriosam
-            molestias iusto voluptatem voluptatum nostrum eveniet repellendus
-            iste. Voluptatibus facere est possimus velit!
+            Hello! 👋 I'm a IIIrd year Btech CSE student specializing in Cloud
+            Computing at SRMIST KTR, Chennai. As an AWS Certified Associate
+            Solution Architect, I'm deeply passionate about crafting innovative
+            cloud solutions. With a keen eye for detail and an insatiable
+            appetite for learning, I'm constantly exploring new avenues within
+            my areas of expertise. Currently, as a Solution Architect at Cloud
+            Nova-SRM, I thrive in AWS architecture and bring proficiency in
+            front-end web development (while delving into the vast world of
+            full-stack). Let's connect and explore opportunities to drive
+            impactful solutions together!
           </p>
 
           <a href="#contact" className="btn btn-primary">

@@ -3,7 +3,6 @@ import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
-import { BsFillArrowUpSquareFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -34,17 +33,26 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <a href="#" className="footer__logo-icon">
-        <BsFillArrowUpSquareFill />
-      </a>
       <div className="footer__socials">
-        <a href="https://facebook.com/vachan316" target="_blank">
+        <a
+          href="https://facebook.com/vachan316"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com/vs316.pvt/" target="_blank">
+        <a
+          href="https://instagram.com/vs316.pvt/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiInstagram />
         </a>
-        <a href="https://twitter.com/VachanShet88141" target="_blank">
+        <a
+          href="https://twitter.com/VachanShet88141"
+          target="_blank"
+          rel="noreferrer"
+        >
           <IoLogoTwitter />
         </a>
       </div>
